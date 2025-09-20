@@ -1,0 +1,8 @@
+{
+  "agent": "arm-01",
+  "pose": {"x": 0.12, "y": -0.04, "z": 0.33},
+  "health": {"ok": true, "tempC": 42.1},
+  "op": "pick",
+  "object": "tray-A/slot-5",
+  "sensors": {"camera": "ok", "forceN": 18.2}
+}

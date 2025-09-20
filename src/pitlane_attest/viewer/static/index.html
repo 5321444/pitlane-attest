@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Pitlane Attestation Viewer</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <main class="wrap">
+    <header class="head">
+      <h1 class="title"><em>Pitlane</em> Attestation Viewer</h1>
+      <p class="sub">Load a .attestation.json to inspect signature and fields.</p>
+    </header>
+
+    <section class="card">
+      <label class="file">
+        <input id="file" type="file" accept=".json,application/json"/>
+        <span>Select attestation JSON</span>
+      </label>
+      <pre id="status" class="status">No file loaded.</pre>
+      <div id="grid" class="grid"></div>
+    </section>
+  </main>
+  <div class="hairline top"></div>
+  <div class="hairline bottom"></div>
+  <script src="app.js"></script>
+</body>
+</html>

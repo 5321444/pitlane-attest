@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pitlane-attest"
+version = "0.1.0"
+description = "Action attestation and sim-gated provenance toolkit for robotics"
+authors = [{ name = "Pitlane" }]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "pynacl>=1.5.0",
+  "typer>=0.12.3",
+  "rich>=13.7.1",
+]
+
+[project.scripts]
+pitlane-attest = "pitlane_attest.cli:app"
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+select = ["E","F","I","UP","B"]

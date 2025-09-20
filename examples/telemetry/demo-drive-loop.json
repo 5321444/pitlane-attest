@@ -1,0 +1,7 @@
+{
+  "agent": "rover-17",
+  "route": "loop-west",
+  "health": {"ok": true, "battery": 0.78},
+  "speed_mps": 1.6,
+  "sensors": {"lidar": "ok", "gps_fix": true}
+}

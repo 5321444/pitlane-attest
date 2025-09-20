@@ -1,0 +1,30 @@
+:root {
+  --black:#111111; --red:#E10600; --white:#FFFFFF;
+}
+*{box-sizing:border-box}
+html,body{height:100%;background:transparent;color:var(--white);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif}
+.wrap{max-width:960px;margin:48px auto;padding:0 24px}
+.head{margin-bottom:24px}
+.title{font-size:32px;letter-spacing:-0.02em;font-style:italic;margin:0}
+.sub{opacity:.75;margin:6px 0 0 0}
+.card{
+  border:1px solid rgba(255,255,255,.12);
+  background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(17,17,17,.25));
+  backdrop-filter: blur(2px);
+  padding:20px;border-radius:14px;
+}
+.file{display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(255,255,255,.18);padding:10px 12px;cursor:pointer}
+.file input{display:none}
+.status{margin:12px 0;background:rgba(17,17,17,.5);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,.08)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+.cell{border:1px solid rgba(255,255,255,.12);padding:12px;border-radius:10px;background:rgba(17,17,17,.4)}
+.key{opacity:.7;font-size:12px}
+.val{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace}
+.hairline.top,.hairline.bottom{
+  position:fixed;left:0;right:0;height:1px;pointer-events:none;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,.15), transparent)
+}
+.hairline.top{top:0}
+.hairline.bottom{bottom:0}
+a{color:var(--red);text-decoration:none;border-bottom:1px solid rgba(225,6,0,.4)}
+a:hover{border-bottom-color:rgba(225,6,0,.8)}

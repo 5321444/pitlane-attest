@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.build/
+dist/
+*.tar.gz
+*.egg-info/
+.attest/
+attestations/
+bundles/
+.env
+.venv

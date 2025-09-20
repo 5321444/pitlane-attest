@@ -1,0 +1,6 @@
+{
+  "agent": "sim-warehouse-03",
+  "scenario": "pallet-inspection",
+  "health": {"ok": true},
+  "notes": "simulation gate rehearsal"
+}
